@@ -79,6 +79,8 @@ public class MainActivity extends AppCompatActivity {
         AssetManager assets = getResources().getAssets();
         File fileName = new File(Environment.getExternalStorageDirectory().toString() + "/TBC/bots/TBC");
 
+        //File jayDir = new File(Environment.getExternalStorageDirectory().toString() + "/hari/bots/Hari");
+
         boolean makeFile = fileName.mkdirs();
 
         if (fileName.exists()) {
